@@ -1,0 +1,190 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AROMA</title>
+    <style>
+    body{
+       width:100%;
+       height:200%;
+    background-color: whitesmoke;
+
+    }
+    #c{
+        float:right;
+        width:40%;
+        height:615px;
+    }
+     table{
+      background-color: rgb(221,68,112);
+        width:60%;
+        border-style:double;
+        border-color:rgb(255, 248, 248);
+      text-align: center;
+      color: whitesmoke;
+     } 
+     th{
+      border-style: none;
+      text-align: center;
+      font-size:25px;
+  
+     }
+      td:hover{
+        background-color: rgb(255,113,171);
+        color:white;
+        padding:10px;
+      }
+      #about{
+        width:100%;
+        background-size: cover;
+        float:right;
+        color:whitesmoke;
+        line-height:2.5em;
+        padding:20px;
+        font-size:30px;
+        background-image:url("{% static 'images/wall2.jpg' %}");
+        background-repeat: no-repeat;
+        height: 500px;
+            }
+      #ab{
+        text-indent: 100px;
+          padding-left:30px;
+          text-align: justify;
+          padding-right:30px;
+          line-height:1.6em;
+        }
+      .container{
+        width:100%;
+        display:flex;
+      }
+      .card{
+        width:40%;
+        background-color: rgb(221,68,112);
+        border-style:double;
+        border-radius:50px;
+        padding:10px;
+        height:50%;
+        margin:10px;
+       color:white;
+      }
+      #team{
+        display: block;
+        width:95%;
+        background-color:rgb(255,227,179);
+            }
+      nav{
+        width:100%;
+        background-color:black;
+        height:75px;
+        padding:15px;
+        
+      }
+      nav:hover{
+        background-color: rgb(237,133,80);
+      }
+      h1{
+        float:right;
+        width:80%;
+        margin-right:0px;
+            }
+        ul{
+              text-decoration:none;
+            }
+        a{
+          text-decoration: none;
+          color:whitesmoke;
+          font-size:20px;
+          float: right;
+          padding: 10px;
+        }
+        a:visited{
+          color: white;
+          font-size:45px;
+        }
+        h2{
+          width:200px;
+          margin-top:500px;
+         color:black;
+         font-size: x-large;
+          
+        }
+     
+        #recipie{
+          width:100px;
+          margin-top:-200px;
+        }
+        h1{
+          color:white;
+          float:left;
+        }
+        footer{
+          background-color: rgb(60,133,218);
+          color:white;
+          height:30px;
+          text-align: center;
+        }
+    </style>
+    </style>
+</head>
+<body><div>
+   
+   </div>
+    <nav>
+      
+      <ul><h1> <img src="{% static 'images/aromalogo.jpg' %}" alt="" width="50px"height="50px">AROMA KITCHEN 
+        <a href="./sug/sug">Add Recipies</a>
+        <a href="./admin/">Admin</a>
+        <a href="#recipies">Recipies</a> 
+        <a href="#about">About us</a>                      
+      </ul>      
+    </nav><br>    
+    <div id="about">
+
+       
+    <ul id="ab"> <li> At AY Organic  Mushroom, we firmly believe that mushrooms are the ultimate superfood with the power to save our planet.
+        Our passion and commitment towards sustainable development and nurturing the economic, ecological and medicinal values of mushrooms have been the driving force behind our work
+         We believe that together we can create a world that is not just healthy and prosperous, but also one that is sustainable and environmentally friendly.
+        Join us on this exciting journey towards creating a sustainable future, and discover the immense potential of mushrooms.</li>
+       <br></p></ul></div></div><br><br>
+       <div id =team>
+        <center>  <h2 >Our Team</h2></center>
+         <div class="container"> 
+          
+                <div class="card">
+                 <center>  <img src="{% static 'images/ishu.jpg' %}" alt="ishu" style="width:50%" ></i> 
+                     <p>ISHU</p>  
+                     <p>CEO & Founder</p>
+                    <p>ishu@gmail.com<br> </h3> </div></center>
+                 <div class="card">
+                    <center> <img src="{% static 'images/shiva.jpg' %}"alt="ishu" style="width:50%" ></i> 
+                     <p>SHIVA</p>   		   
+                    <p>ADMIN</p>
+                     <p>shiva@gamil.com</p></h3></div></center>
+                  <div class="card">
+                    <center> <img src="{% static 'images/aleem.png' %}" alt="ishu" style="width:50%" ></i>
+                        <p>ALEEM</p>   		   
+                          <p>CHEF</p>
+                        <p>aleem@gmail.com</p></center></h3></div></div></div><br><br>
+     <div id="recipies">
+      <img src="{% static 'images/c.jpg' %}" id="c" >
+<table border="1"> <tr></tr><th></th>
+  <th>Recipies</th><th></th></tr> 
+      <td>
+     <a href="./rec/piz/"><img src="{% static 'images/pizza.jpg' %}" alt="cooking" height="200px" width="200px"/></a>
+    <strong><p>MUSHROOM PIZZA</p></strong> <br>
+       </p></strong></td>           
+    <td><a href="./rec/bur/"><img src="{% static 'images/burger.jpg' %}" alt="cooking" height="200px" width="200px"/><br></a>
+    <strong><p>MUSHROOM BURGER</p></strong><br></td>
+       <td><a href="./rec/no/"><img src="{% static 'images/noodles.jpg' %}" alt="cooking" height="200px" width="200px"/></a>
+     <strong><p>MUSHROOM NOODLES</p><br></strong></td> 
+     <tr>              
+     <td> <a href="./rec/sand/"><img src="{% static 'images/sandwich.jpg' %}" alt="cooking" height="200px" width="200px"/></a>
+           <strong><p> MUSHROOM SANDWICH</p></td> 
+  
+     <td> <a href="./rec/grav"><img src="{% static 'images/gravy.jpg' %}" alt="cooking" height="200px" width="200px"/></a>
+       <strong><p> MUSHROOM GRAVY</p></td>            
+     <td><a href="./rec/soup"><img src="{% static 'images/soup.jpg' %}" alt="cooking" height="200px" width="200px"/></a>
+       <strong><p> MUSHROOM SOUP</p></td>   </tr>     </tr></table></div>
+        <footer>&copy; ay recipies</footer>

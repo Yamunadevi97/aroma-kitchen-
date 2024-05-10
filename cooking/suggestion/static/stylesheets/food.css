@@ -1,0 +1,83 @@
+body{
+    color:rgb(116,35,167);
+    background-color:rgb(254,220,0);
+    font-family: sans-serif;
+    font-size: medium;
+    word-spacing:10px;
+    line-height:1.5em;
+    letter-spacing:1px;
+    width:100%;
+}
+
+a{
+    color:orangered;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: larger;
+}
+#items{
+    width:100%;
+    display: flex;
+    margin:10px;
+    background-color: rgb(116,35,167);
+    color:white;
+    text-align:center;
+    border-style:double;
+    border-color:rgb(245,82,123);
+    border-radius:100px;
+    border-width:10px;
+}
+#timing{
+    background-color: black;
+    width:30%;
+    color:whitesmoke;
+    text-align:center;
+    letter-spacing:2px;
+    border-style:double;
+    border-color:lawngreen;
+    border-radius:100px;
+    border-width:10px;
+  
+}
+#ingredients{
+      width:48%;
+    text-align: left;
+    margin-right:20px;
+ line-height:18px;
+ font-family: sans-serif;
+ font-style: normal;
+ font-size: medium;
+ border-color: rgb(75,168,214);
+ border-right-style: double;
+   border-width: 20px;
+}
+h2{
+    text-align:center;
+    font-family: serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#preparation{
+    width:50%;
+    text-align: justify;
+    margin-right:5px;
+    padding-right:10px;
+}
+section{
+    padding:10px;
+}
+h3{
+  color:rgb(241,126,48)
+}
+#t{
+    width:100%;
+}
+img{
+    float:right;
+    margin-top:-270px;
+    padding-right:10px;
+    width:500px;
+    height:240px;
+}
